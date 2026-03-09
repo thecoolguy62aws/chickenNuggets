@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "obtain_chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cooked_chicken"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_chicken"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "chickennuggets:chicken_nugget"
+    ]
+  }
+}
